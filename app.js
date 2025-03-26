@@ -37,6 +37,8 @@ const posts = [
     },
 ]
 
+app.use(express.static('public'));
+
 app.get('/', (req,res) => {
     console.log('Server del mio blog');
     res.send('<h1>Server del mio blog</h1>');
@@ -54,5 +56,5 @@ app.listen(port, () => {
     console.log('sono un server attivo sulla porta ' + port);
 })
 
-app.use(express.static('public'));
+
 
