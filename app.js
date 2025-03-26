@@ -9,31 +9,31 @@ const posts = [
         title: 'Ciambellone',
         content: 'content',
         image: 'images/ciambellone.jpeg',
-        tags: 'tags'
+        tags: ['a','b']
     },
     {
         title: 'Cracker Barbabietola',
         content: 'content',
         image: 'images/cracker_barbabietola.jpeg',
-        tags: 'tags'
+        tags: ['a','b']
     },
     {
         title: 'Pane fritto dolce',
         content: 'content',
         image: 'images/pane_fritto_dolce.jpeg',
-        tags: 'tags'
+        tags: ['a','b']
     },
     {
         title: 'Pasta alla barbabietola',
         content: 'content',
         image: 'images/pasta_barbabietola.jpeg',
-        tags: 'tags'
+        tags: ['a','b']
     },
     {
         title: 'torta paesana',
         content: 'content',
         image: 'images/torta_paesana.jpeg',
-        tags: 'tags'
+        tags: ['a','b']
     },
 ]
 
