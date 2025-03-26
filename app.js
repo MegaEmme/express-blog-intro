@@ -44,7 +44,10 @@ app.get('/', (req,res) => {
 
 app.get('/bacheca', (req,res) => {
     console.log('Bacheca del mio blog');
+    // res.send('<img src="images/ciambellone.jpeg" alt="ciambellone">');
+    // immagine di prova per vedere se funziona
     res.json(posts);
+
 })
 
 app.listen(port, () => {
