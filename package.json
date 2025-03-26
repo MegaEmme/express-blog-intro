@@ -5,10 +5,10 @@
   "main": "app.js",
   "scripts": {
     "start":"node app.js",
-    "devclear":"node --watch app.js"
+    "dev":"node --watch app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Michelangelo Musco",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2"
