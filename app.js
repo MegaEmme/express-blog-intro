@@ -35,26 +35,23 @@ const posts = [
         image: 'images/torta_paesana.jpeg',
         tags: ['a','b']
     },
-]
+];
 
 app.use(express.static('public'));
 
 app.get('/', (req,res) => {
     console.log('Server del mio blog');
     res.send('<h1>Server del mio blog</h1>');
-})
+});
 
 app.get('/bacheca', (req,res) => {
     console.log('Bacheca del mio blog');
-    // res.send('<img src="images/ciambellone.jpeg" alt="ciambellone">');
-    // immagine di prova per vedere se funziona
     res.json(posts);
-
-})
+});
 
 app.listen(port, () => {
     console.log('sono un server attivo sulla porta ' + port);
-})
+});
 
 
 
